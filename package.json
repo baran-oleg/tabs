@@ -17,6 +17,7 @@
     "jshint": "^2.12.0"
   },
   "parcelCleanPaths": [
-    "dist"
+    "dist",
+    ".cache"
   ]
 }
