@@ -8,6 +8,7 @@
     "build": "parcel build index.html --no-source-maps --no-cache"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "parcel-plugin-clean-easy": "^1.0.2",
     "sass": "^1.29.0"
   },
