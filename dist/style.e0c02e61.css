@@ -140,13 +140,6 @@ body {
   color: #ffffff;
   font-weight: 400;
 }
-.col-two__row-one > div:nth-child(2) > p {
-  font-family: "Lato", sans-serif;
-  font-size: 1.25rem;
-  color: #aaadbb;
-  line-height: 22px;
-  font-weight: 400;
-}
 .col-two__text {
   font-family: "Lato", sans-serif;
   font-size: 0.875rem;
@@ -195,6 +188,28 @@ body {
 .col-two__link:hover {
   transition: 0.3s all;
   transform: scale(1.1);
+}
+
+#circle {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+#circle strong {
+  position: absolute;
+  top: 30px;
+  left: 3px;
+  width: 100%;
+  line-height: 12px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  color: #aaadbb;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
